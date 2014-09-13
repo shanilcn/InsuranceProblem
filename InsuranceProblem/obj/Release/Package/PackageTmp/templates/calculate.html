@@ -1,0 +1,23 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <h2>Calculate Mixture</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Target Visit</label>
+            <input type="text" class="form-control" ng-model="input.targetVisit" />
+        </div>
+        <button class="btn btn-default" ng-click="calculate(input)">Calculate</button>
+        <div style="color:red" ng-show="error">An error has occured saving your account.</div>
+        <div style="color:greenyellow" ng-show="operationFlag">Calculation is being performed.</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <div style="color:whitesmoke" ng-show="success">There are {{result}} ways of member mixes that would result in {{input.targetVisit}} physician visits per year</div>
+    </div>
+</div>
+

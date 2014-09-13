@@ -1,0 +1,19 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <h2>Add Age Group Visits</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Age Group Description</label>
+            <input type="text" class="form-control" ng-model="ageGroup.ageGroupDescription" />
+        </div>
+        <div class="form-group">
+            <label>Visits</label>
+            <input type="text" class="form-control" ng-model="ageGroup.visit" />
+        </div>
+        <button class="btn btn-default" ng-click="save(ageGroup)">Save</button>
+        <div style="color:red" ng-show="error">An error has occured saving your account.</div>
+    </div>
+</div>

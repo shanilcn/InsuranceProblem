@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="InsuranceProblem.Properties.Settings.InsuranceProblemConnectionString-Web.config Connection String" description="InsuranceProblem.Properties.Settings.InsuranceProblemConnectionString Connection String used in web.config by the application to access the database." defaultValue="mongodb://insuranceProblem:test@ds035750.mongolab.com:35750/shaniltest" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="G:\\Programming\\C\#\\InsuranceProblem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='InsuranceProblem.Properties.Settings.InsuranceProblemConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

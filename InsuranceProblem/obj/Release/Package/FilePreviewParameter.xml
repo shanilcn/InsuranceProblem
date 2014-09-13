@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="InsuranceTestProblem" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^G:\\Programming\\C\#\\InsuranceProblem\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^G:\\Programming\\C\#\\InsuranceProblem\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="InsuranceProblem.Properties.Settings.InsuranceProblemConnectionString-Web.config Connection String" description="" value="mongodb://insuranceProblem:test@ds035750.mongolab.com:35750/shaniltest" tags="">
+    <parameterEntry kind="XmlFile" scope="G:\\Programming\\C\#\\InsuranceProblem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='InsuranceProblem.Properties.Settings.InsuranceProblemConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

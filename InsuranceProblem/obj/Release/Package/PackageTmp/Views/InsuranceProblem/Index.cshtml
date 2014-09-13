@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Insurance Problem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section JavascriptInHead
+{
+    <script src="~/Scripts/Calculate/calculate-controller.js"></script>
+    <script src="~/Scripts/AgeGroup/ageGroup-controller.js"></script>
+    <script src="~/Scripts/Calculate/calculate-repository.js"></script>
+    <script src="~/Scripts/AgeGroup/ageGroup-repository.js"></script>
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="nav navbar-default">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li><span class="navbar-brand">Insurance Problem</span></li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/InsuranceProblem/AgeGroupVisits">Browse Age Group Visits</a></li>
+                    <li><a href="/InsuranceProblem/CalculateMixture">Calculate Mixture</a></li>
+
+                    @*<li><a href="/Registration/Instructors">Browse Instructors</a></li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div ng-view></div>
+</div>

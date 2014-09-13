@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <h2>Age Group Visits</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <table class="table table-condensed table-hover table-bordered">
+            <tr>
+                <th>Age Group Description</th>
+                <th>Visits</th>
+            </tr>
+            <tr ng-repeat="ageGroupVisits in ageGroupVistors">
+                <td>{{ageGroupVisits.ageGroupDescription}}</td>
+                <td>{{ageGroupVisits.visit}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<a href="/InsuranceProblem/AddAgeGroupVisitors">Add Age Group Visitors</a>
